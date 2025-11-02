@@ -1,4 +1,4 @@
-import { navlinks } from "../constants";
+import { navLinks } from "../constants";
 const Navbar = () => {
   return (
     <header>
@@ -6,7 +6,7 @@ const Navbar = () => {
         <img src="/logo.svg" alt="Apple logo" />
 
         <ul>
-         {navlinks.map(({label}) => (
+         {navLinks.map(({label}) => (
             <li key={label}>
               <a href={label}>{label}</a>
             </li>
